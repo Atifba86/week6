@@ -1,0 +1,106 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"roster"},
+{"type":"table","name":"ages","database":"roster","data":
+[
+{"name":"Mira","age":"17"},
+{"name":"Krystal","age":"23"},
+{"name":"Susan","age":"26"},
+{"name":"Cambell","age":"35"},
+{"name":"Aleeyah","age":"19"},
+{"name":"Leaya","age":"35"}
+]
+}
+,{"type":"table","name":"album","database":"roster","data":
+[
+{"album_id":"1","title":"Confessions on a Dance Floor","artist_id":"1"},
+{"album_id":"2","title":"18 Months","artist_id":"2"},
+{"album_id":"3","title":"Motion","artist_id":"2"},
+{"album_id":"4","title":"Beyonce","artist_id":"3"},
+{"album_id":"5","title":"Lemonade","artist_id":"3"}
+]
+}
+,{"type":"table","name":"artist","database":"roster","data":
+[
+{"artist_id":"1","name":"Madonna"},
+{"artist_id":"2","name":"Calvin Harris"},
+{"artist_id":"3","name":"Beyonce"}
+]
+}
+,{"type":"table","name":"course","database":"roster","data":
+[
+{"course_id":"1","title":"si106"},
+{"course_id":"2","title":"si110"},
+{"course_id":"3","title":"si206"}
+]
+}
+,{"type":"table","name":"genre","database":"roster","data":
+[
+{"genre_id":"2","name":"Electro house"},
+{"genre_id":"1","name":"Pop"},
+{"genre_id":"3","name":"R&B"}
+]
+}
+,{"type":"table","name":"member","database":"roster","data":
+[
+{"user_id":"1","course_id":"1","role":"1"},
+{"user_id":"2","course_id":"1","role":"0"},
+{"user_id":"3","course_id":"1","role":"0"},
+{"user_id":"4","course_id":"1","role":"0"},
+{"user_id":"5","course_id":"1","role":"0"},
+{"user_id":"6","course_id":"2","role":"1"},
+{"user_id":"7","course_id":"2","role":"0"},
+{"user_id":"8","course_id":"2","role":"0"},
+{"user_id":"9","course_id":"2","role":"0"},
+{"user_id":"10","course_id":"2","role":"0"},
+{"user_id":"11","course_id":"3","role":"1"},
+{"user_id":"12","course_id":"3","role":"0"},
+{"user_id":"13","course_id":"3","role":"0"},
+{"user_id":"14","course_id":"3","role":"0"},
+{"user_id":"15","course_id":"3","role":"0"}
+]
+}
+,{"type":"table","name":"track","database":"roster","data":
+[
+{"track_id":"1","title":"Hung Up","len":"336","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"2","title":"Sorry","len":"283","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"3","title":"Get Together","len":"330","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"4","title":"Jump","len":"226","rating":"5","count":"0","album_id":"1","genre_id":"1"},
+{"track_id":"5","title":"Feel So Close","len":"206","rating":"5","count":"0","album_id":"2","genre_id":"2"},
+{"track_id":"6","title":"I Need Your Love","len":"236","rating":"5","count":"0","album_id":"2","genre_id":"2"},
+{"track_id":"7","title":"Lets Go","len":"237","rating":"5","count":"0","album_id":"2","genre_id":"2"},
+{"track_id":"8","title":"Thinking About You","len":"247","rating":"5","count":"0","album_id":"2","genre_id":"2"},
+{"track_id":"9","title":"Under Control","len":"184","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"10","title":"Summer","len":"222","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"11","title":"Blame","len":"212","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"12","title":"Outside","len":"227","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"13","title":"XO","len":"215","rating":"5","count":"0","album_id":"4","genre_id":"3"},
+{"track_id":"14","title":"Drunk in Love","len":"323","rating":"5","count":"0","album_id":"4","genre_id":"3"},
+{"track_id":"15","title":"Partition","len":"319","rating":"5","count":"0","album_id":"4","genre_id":"3"},
+{"track_id":"16","title":"Pretty Hurts","len":"257","rating":"5","count":"0","album_id":"4","genre_id":"3"},
+{"track_id":"17","title":"Formation","len":"206","rating":"5","count":"0","album_id":"5","genre_id":"3"},
+{"track_id":"18","title":"Sorry","len":"232","rating":"5","count":"0","album_id":"5","genre_id":"3"},
+{"track_id":"19","title":"Hold Up","len":"221","rating":"5","count":"0","album_id":"5","genre_id":"3"},
+{"track_id":"20","title":"Freedom","len":"249","rating":"5","count":"0","album_id":"5","genre_id":"3"}
+]
+}
+,{"type":"table","name":"user","database":"roster","data":
+[
+{"user_id":"2","name":"Ammara"},
+{"user_id":"6","name":"Arella"},
+{"user_id":"12","name":"Avah"},
+{"user_id":"7","name":"Boshra"},
+{"user_id":"13","name":"Elisabetta"},
+{"user_id":"14","name":"Elvi"},
+{"user_id":"3","name":"Kearney"},
+{"user_id":"8","name":"Leaya"},
+{"user_id":"4","name":"Maariyah"},
+{"user_id":"9","name":"Muneeba"},
+{"user_id":"1","name":"Naz"},
+{"user_id":"5","name":"Rhein"},
+{"user_id":"10","name":"Seerat"},
+{"user_id":"15","name":"Tommy"},
+{"user_id":"11","name":"Yann"}
+]
+}
+]
